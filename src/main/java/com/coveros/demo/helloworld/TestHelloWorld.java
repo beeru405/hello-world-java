@@ -8,8 +8,8 @@ String title = hello;
 System.out.println(title); 
 } 
 @Test 
-public void beforeTest() { 
-System.out.println("before test"); 
+public void Test() { 
+System.out.println("test"); 
 } 
 
 }
