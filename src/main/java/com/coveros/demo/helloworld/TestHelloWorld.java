@@ -3,10 +3,13 @@ import java.io.PrintStream;
 public class TestHelloWorld {
 
     public final static void main(String[] args) {
-        doPrint(System.out);
-    }
+        
+String title = hello; 
+System.out.println(title); 
+} 
+@Test 
+public void beforeTest() { 
+System.out.println("before test"); 
+} 
 
-    static void doPrint(PrintStream ps) {
-        ps.println("Hello World");
-    }
 }
